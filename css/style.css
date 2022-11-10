@@ -1,0 +1,42 @@
+@import "components/fonts.css";
+@import "components/container.css";
+@import "components/avatar.css";
+@import "components/buttons.css";
+@import "components/banner.css";
+@import "components/card.css";
+@import "components/footer.css";
+
+
+body{
+  background-color:white;
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+}
+
+a{
+  text-decoration: none;
+}
+
+#first-title{
+  margin-top: 40px;
+}
+
+.our-goal{
+  background: #342628;
+  color: white;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 70px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  transition: 0.9s;
+}
+
+.add-space{
+  margin-top: 60px;
+}
